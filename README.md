@@ -1,46 +1,28 @@
 # Range_Nmap
 Range-Nmap is a simple terminal port scanner similar to Nmap, written in Python.
-Usage
-Single Port Scan
-scan <ip> <port>
+# Range_Nmap  
+![build](https://img.shields.io/badge/build-stable-green)
+![version](https://img.shields.io/badge/version-1.0-blue)
+![python](https://img.shields.io/badge/python-3.8%2B-yellow)
+![status](https://img.shields.io/badge/status-active-brightgreen)
 
+Range_Nmap, Python ile yazılmış basit, hızlı ve tamamen terminal tabanlı bir port tarayıcıdır.  
+Nmap benzeri bir kullanım mantığı sunar ve tek port, port aralığı veya 1–65535 arasındaki tüm portları tarayabilir.  
+Ağ testleri, laboratuvar ortamları ve temel güvenlik analizleri için hafif bir çözümdür.
 
-Example:
+Bu aracın en son sürümünü GitHub deposundan indirebilirsiniz.  
+Ayrıntılı bilgi için proje kodlarını inceleyin.
 
-scan 10.10.10.5 80
+---
 
-Port Range Scan
-scan <ip> <start>-<end>
+## Kurulum
 
+İdeal olarak, sadece şu komutları çalıştırmanız yeterlidir:
 
-Example:
-
-scan 10.10.10.5 1-1000
-
-Full Port Scan
-scan <ip> all
-
-Exit
-exit
-
-Installation
-
-Clone the repository:
-
+```bash
 git clone https://github.com/Musab65930/Range_Nmap.git
-
-
-Enter the folder:
-
 cd Range_Nmap
-
-
-Run the script:
-
+chmod +x range_nova.py
 python3 range_nova.py
 
-Project Structure
-Range_Nmap/
-│
-├── range_nova.py     # Main application
-└── README.md         # Documentation
+
